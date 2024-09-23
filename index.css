@@ -1,0 +1,33 @@
+/* import font from fonts */
+
+@font-face {
+  font-family: "PixelOperator";
+  src: url("./fonts/PixelOperator.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* use fonts for web*/
+
+* {
+  font-family: "PixelOperator", sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+
+@media only screen and (max-width: 390px) {
+    body {
+        font-size: 2em
+        background-color: #e0e0e0;
+         /* Example: Change background for iPhones */
+    }
+
+    header {
+        background-color: ;
+    }
