@@ -72,11 +72,21 @@ h1 {
   margin: 32px auto;
 }
 
+.box-icon {
+  background-color: #fff;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
 .skills-icon {
   font-size: 100px; /* Adjust this value to change the size */
   width: auto; /* Ensure the icon maintains aspect ratio */
   height: auto;
-  color: #2d3748;
+  display: flex;
+  justify-content: space-around;
 }
 
 .about-me {
