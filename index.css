@@ -72,6 +72,13 @@ h1 {
   margin: 32px auto;
 }
 
+.skills-icon {
+  font-size: 100px; /* Adjust this value to change the size */
+  width: auto; /* Ensure the icon maintains aspect ratio */
+  height: auto;
+  color: #2d3748;
+}
+
 .about-me {
   background-color: #fff;
   padding: 20px;
